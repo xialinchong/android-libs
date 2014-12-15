@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/navbar" />
+
+    <EditText
+        android:id="@+id/complaints_suggestions_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"        
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="请在此输入内容.."
+        android:inputType="textMultiLine"
+        android:textColorHint="#CCCCCC" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/save_complaints_suggestions_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="提交" />
+
+</LinearLayout>

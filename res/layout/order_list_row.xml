@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1,3" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/title_text_color"
+            android:text="订单状态:" />
+
+        <TextView
+            android:id="@+id/order_list_row_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:ems="4"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/title_text_color"
+            android:text="打车方式:" />
+
+        <TextView
+            android:id="@+id/order_list_row_take_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:ems="4"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/title_text_color"
+            android:text="出租车:" />
+
+        <TextView
+            android:id="@+id/order_list_row_car_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:ems="4"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/title_text_color"
+            android:text="付款方式:" />
+
+        <TextView
+            android:id="@+id/order_list_row_pay_method"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:ems="4"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/title_text_color"
+            android:text="是否评价:" />
+
+        <TextView
+            android:id="@+id/order_list_row_has_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:ems="4"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/title_text_color"
+            android:text="人数:" />
+
+        <TextView
+            android:id="@+id/order_list_row_passenger_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+ 
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+             
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:ems="4"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/title_text_color"
+            android:text="出发地:" />
+
+        <TextView
+            android:id="@+id/order_list_row_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:text="TextView" />
+ 
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:ems="4"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/title_text_color"
+            android:text="目的地:" />
+
+        <TextView
+            android:id="@+id/order_list_row_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:text="TextView"
+            android:visibility="gone" />
+        
+        <Button
+            android:id="@+id/driver_to_voice_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:text=""
+            android:background="@anim/play"
+            android:visibility="gone" />
+ 
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:ems="4"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/title_text_color"
+            android:text="打车时间:" />
+
+        <TextView
+            android:id="@+id/order_list_row_take_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+        
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:ems="4"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/title_text_color"
+            android:text="打车乘客:" />
+
+        <TextView
+            android:id="@+id/order_list_row_passenger_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:ems="4"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/title_text_color"
+            android:text="预付车费:" />
+
+        <TextView
+            android:id="@+id/order_list_row_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_span="3"
+            android:text="TextView" />
+    </TableRow>
+    
+</TableLayout>

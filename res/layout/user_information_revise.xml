@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="头像"
+                android:layout_marginLeft="10dp"/>
+            <ImageButton 
+                android:id="@+id/user_information_revsie_ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/default_avatar"
+                android:layout_gravity="right"/>"
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+ <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginRight="5dp"
+		            android:ems="4"
+		            android:gravity="right"
+		            android:text="用户名"
+		            android:textColor="@color/title_text_color" />
+            <EditText
+                android:id="@+id/user_information_revsie_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/pbutton"
+                android:text="登录密码"
+                android:textColor="@color/title_text_color" />
+
+            	<LinearLayout
+	                android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+				 <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginRight="5dp"
+		            android:ems="4"
+		            android:gravity="right"
+		            android:text="旧密码"
+		            android:textColor="@color/title_text_color" />
+            	<EditText
+	                android:id="@+id/user_information_revsie_oldpassword"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:ems="10"
+	                android:inputType="textPassword" />
+            	</LinearLayout>
+            	<LinearLayout
+	                android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+				 <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginRight="5dp"
+		            android:ems="4"
+		            android:gravity="right"
+		            android:text="新密码"
+		            android:textColor="@color/title_text_color" />
+            	<EditText
+	                android:id="@+id/user_information_revsie_newpassword"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:ems="10"
+	                android:inputType="textPassword" />
+            	</LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pbutton"
+                android:gravity="center"
+                android:text="支付密码"
+                android:textColor="@color/title_text_color" />
+
+            	<LinearLayout
+	                android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+				 <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginRight="5dp"
+		            android:ems="4"
+		            android:gravity="right"
+		            android:text="旧密码"
+		            android:textColor="@color/title_text_color" />
+            	<EditText
+	                android:id="@+id/user_information_revsie_oldpaypassword"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:ems="10"
+	                android:inputType="textPassword" />
+            	</LinearLayout>
+            	<LinearLayout
+	                android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+				 <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginRight="5dp"
+		            android:ems="4"
+		            android:gravity="right"
+		            android:text="新密码"
+		            android:textColor="@color/title_text_color" />
+            	<EditText
+	                android:id="@+id/user_information_revsie_newpaypassword"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:ems="10"
+	                android:inputType="textPassword" />
+            	</LinearLayout>
+        	</LinearLayout>
+
+        	<LinearLayout
+        	    android:layout_width="match_parent"
+        	    android:layout_height="wrap_content"
+        	    android:orientation="vertical" >
+
+            	<TextView
+            	    android:layout_width="match_parent"
+            	    android:layout_height="wrap_content"
+            	    android:layout_marginRight="5dp"
+            	    android:gravity="center"
+            	    android:background="@drawable/pbutton"
+            	    android:text="性别"
+            	    android:textColor="@color/title_text_color" />
+
+            	<RadioGroup
+            	    android:id="@+id/radioGroup_reviseInformation"
+            	    android:layout_width="match_parent"
+            	    android:layout_height="wrap_content"
+            	    android:gravity="center"
+            	    android:orientation="horizontal" >
+
+                	<RadioButton
+                    android:id="@+id/man_reviseInformation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="先生" />
+
+                	<RadioButton
+                    android:id="@+id/woman_reviseInformation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="女士" />
+            		</RadioGroup>
+        	    </LinearLayout>
+
+        	<Button
+        	    android:id="@+id/button_reviseInformation"
+        	    android:padding="8dp"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="wrap_content"
+        	    android:text="确定修改" />
+        </LinearLayout>
+    </ScrollView>
+
+     
+     <include
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         layout="@layout/navbar"/>
+</FrameLayout>

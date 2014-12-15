@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">weinuode</string>
+    <string name="app_name_driver">weinuode 司机端</string>
+    <string name="app_name_passenger">weinuode 乘客端</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="driver_register_is_pending">您的司机身份正在审核中</string>
+	<string name="signin_as_passenger">以乘客身份登录</string>
+	<string name="dest_addr">目的地</string>
+	<string name="submit">提交</string>
+	<string name="push_and_speak_dest_addr">按住说出目的地</string>
+	<string name="favorite_addr">常用地址</string>
+	<string name="nearby_cars">附近的车</string>
+	<string name="nearby_passengers">附件的乘客</string>
+	<string name="from_addr">出发地</string>
+	<string name="to_addr">目的地</string>
+	<string name="pessanger_count">人数</string>
+	<string name="pessanger_count_unit">人</string>
+	<string name="plan_pay">计划支付</string>
+	<string name="price_unit">元</string>
+	<string name="play">播放</string>
+	<string name="gps_location">GPS正在定位</string>
+	<string name="where_am_i">亲，你进入异次元空间了吗，找不到你啊</string>
+	<string name="location">定位</string>
+	<string name="locationing">定位中...</string>
+	<string name="choose_from_here_or_touch_map">&lt;-选择目的地或长按地图选择</string>
+	<string name="take_taxi">打车</string>
+	<string name="bespeak">预约</string>
+	<string name="view_detail">详细</string>
+	<string name="confirm_order">结束订单</string>
+	<string name="call_him">联系TA</string>
+	<string name="loading">加载中</string>
+	<string name="taking_taxi">打车中...</string>
+	
+	
+	
+	
+    <string name="more">更多</string>
+    <string name="sm_item_demo">接口</string>
+    <string name="sm_item_auth">授权</string>
+    <string name="sm_item_wechat">微信</string>
+    <string name="sm_item_fl_weibo">关注新浪微博</string>
+    <string name="sm_item_fl_tc">关注腾讯微博</string>
+    <string name="sm_item_visit_wechat">关注官方微信</string>
+    <string name="sm_item_visit_website">关注官方网站</string>
+    <string name="sm_item_about">版本 Ver. %s</string>
+    <string name="plz_choose_wechat">请选择微信客户端完成操作</string>
+    
+    <string name="demo_share_all_gui">分享全部（有分享界面）</string>
+    <string name="demo_share_all">分享全部（无界面，直接分享）</string>
+    <string name="demo_get_access_token">获取AccessToken</string>
+	<string name="demo_get_my_info">获取授权用户资料</string>
+    <string name="demo_get_other_info">获取其他用户资料</string>
+	<string name="demo_share_to_sw">分享新浪微博</string>
+	<string name="demo_share_to_tc">分享腾讯微博</string>
+	<string name="demo_share_to_fb">分享Facebook</string>
+	<string name="demo_share_to_tw">分享twitter</string>
+	<string name="demo_share_to_rr">分享人人网</string>
+	<string name="demo_share_to_qz">分享QQ空间</string>
+	<string name="demo_share_to_db">分享豆瓣</string>
+	<string name="demo_share_to_en">分享印像笔记</string>
+	<string name="demo_share_to_nemb">分享网易微博</string>
+	<string name="demo_share_to_sh">分享搜狐微博</string>
+	<string name="demo_share_to_kaixin">分享开心网</string>
+	<string name="demo_share_to_youdao">分享有道笔记</string>
+	<string name="demo_share_to_googleplus">分享Google+</string>
+	<string name="demo_share_to_foursquare">分享FourSquare</string>
+	<string name="demo_share_to_linked_in">分享Linkedin</string>
+    
+	<string name="get_token_sw">获取新浪微博AccessToken</string>
+	<string name="get_token_tc">获取腾讯微博AccessToken</string>
+	<string name="get_token_fb">获取Facebook AccessToken</string>
+	<string name="get_token_tw">获取Twitter AccessToken</string>
+	<string name="get_token_rr">获取人人网AccessToken</string>
+	<string name="get_token_qz">获取QQ空间AccessToken</string>
+	<string name="get_token_db">获取豆瓣AccessToken</string>
+	<string name="get_token_en">获取映象笔记AccessToken</string>
+	<string name="get_token_nemb">获取网易微博AccessToken</string>
+	<string name="get_token_sohu">获取搜狐微博AccessToken</string>
+	<string name="get_token_kaixin">获取开心网AccessToken</string>
+	<string name="get_token_youdao">获取有道笔记AccessToken</string>
+	<string name="get_token_googleplus">获取Google+ AccessToken</string>
+	<string name="get_token_foursquare">获取FourSquare AccessToken</string>
+	<string name="get_token_linked_in">Linked In AccessToken</string>
+	
+	<string name="get_user_info_sw">获取新浪微博授权用户资料</string>
+	<string name="get_user_info_tc">获取腾讯微博授权用户资料</string>
+	<string name="get_user_info_fb">获取Facebook授权用户资料</string>
+	<string name="get_user_info_tw">获取Twitter授权用户资料</string>
+	<string name="get_user_info_rr">获取人人网授权用户资料</string>
+	<string name="get_user_info_qz">获取QQ空间授权用户资料</string>
+	<string name="get_user_info_db">获取豆瓣授权用户资料</string>
+	<string name="get_user_info_nemb">获取网易微博授权用户资料</string>
+	<string name="get_user_info_en">获取印象笔记授权用户资料</string>
+	<string name="get_user_info_sh">获取搜狐微博授权用户资料</string>
+	<string name="get_user_info_kaixin">获取开心网授权用户资料</string>
+	<string name="get_user_info_youdao">获取有道笔记授权用户资料</string>
+	<string name="get_user_info_googleplus">获取Google+授权用户资料</string>
+	<string name="get_user_info_foursquare">获取FourSquare授权用户资料</string>
+	<string name="get_user_info_linked_in">获取Linked In授权用户资料</string>
+	
+	<string name="not_yet_authorized">尚未授权</string>
+	<string name="sinaweibo">新浪微博</string>
+	<string name="tencentweibo">腾讯微博</string>
+	<string name="facebook">Facebook</string>
+	<string name="twitter">Twitter</string>
+	<string name="renren">人人网</string>
+	<string name="qzone">QQ空间</string>
+	<string name="douban">豆瓣</string>
+	<string name="evernote">印象笔记</string>
+	<string name="neteasemicroblog">网易微博</string>
+	<string name="wechat">微信好友</string>
+	<string name="wechatmoments">微信朋友圈</string>
+	<string name="sohumicroblog">搜狐微博</string>
+	<string name="kaixin">开心网</string>
+	<string name="youdao">有道笔记</string>
+	<string name="googleplus">Google+</string>
+	<string name="foursquare">FourSquare</string>
+	
+	<string name="cancel">取消</string>
+	<string name="share_content">这个打车应用好啊，blablablabla</string>
+	<string name="share_content_short">这个打车应用好啊，blablablabla</string>
+	<string name="evenote_title">这个打车应用好啊，blablablabla</string>
+	<string name="sharing">分享操作正在后台进行...</string>
+	<string name="share_to">分享到</string>
+	
+	<string name="share">分享</string>
+	<string name="multi_share">图文分享</string>
+	
+	<string name="update">文字分享</string>
+	<string name="image_upload">图片分享（本地图片）</string>
+	<string name="image_upload_bitmap">图片分享（Bitmap对象）</string>
+	<string name="music_upload">音乐分享</string>
+	<string name="video_upload">视频分享</string>
+	<string name="webpage_upload">网页分享（本地图片）</string>
+	<string name="webpage_upload_bitmap">网页分享（Bitmap对象）</string>
+	<string name="app_upload">应用分享</string>
+	<string name="file_upload">文件分享</string>
+	<string name="share_to_moment">分享到朋友圈</string>
+	<string name="wechat_demo_title">微信分享Demo标题</string>
+	
+	<string name="user_local_photos">选择本地图片</string>
+	<string name= "user_take_photos">拍照</string>
+	
+	<string name="all_menu_msg">消息</string>
+	<string name="all_menu_check_order">查看订单</string>
+	<string name="all_menu_config">设置</string>
+	<string name="all_menu_menu">主页</string>
+	<string name="all_menu_more">更多</string>
+	<string name="all_menu_exit">退出</string>
+</resources>

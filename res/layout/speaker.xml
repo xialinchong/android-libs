@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/speaker_switcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/input_button" />
+
+    <EditText
+        android:id="@+id/speaker_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:visibility="gone" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/speaker_submit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/pbutton"
+        android:text="@string/submit"
+        android:textColor="@color/pbutton_color"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/speaker_push"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="8dp"
+        android:layout_weight="0"
+        android:background="@drawable/pbutton"
+        android:text="@string/push_and_speak_dest_addr"
+        android:textColor="@color/pbutton_color"
+        android:visibility="visible" />
+
+</LinearLayout>

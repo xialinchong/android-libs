@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/navbar" />
+
+        <RadioGroup
+            android:id="@+id/toggleGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ToggleButton
+                android:id="@+id/normal_order"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:tag="normal"
+                android:onClick="onToggle"
+                android:textOff="打车订单"
+                android:textOn="打车订单"
+                android:textSize="14sp" />
+
+            <ToggleButton
+                android:id="@+id/pool_order"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onToggle"
+                android:textOff="拼车订单"
+                android:textOn="拼车订单"
+                android:tag="pool"
+                android:textSize="14sp" />
+
+            <ToggleButton
+                android:id="@+id/bespeak_order"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onToggle"
+                android:tag="bespeak"
+                android:textOff="预约订单"
+                android:textOn="预约订单"
+                android:textSize="14sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/order_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@id/head"
+        android:descendantFocusability="blocksDescendants"
+        tools:listitem="@layout/order_list_row_simple" >
+    </ListView>
+    
+        <ViewStub 
+          android:id="@+id/empty"
+	android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:layout_below="@id/head"
+        android:layout="@layout/nocontent"/>
+
+</RelativeLayout>
